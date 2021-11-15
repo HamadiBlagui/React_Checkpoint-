@@ -1,0 +1,136 @@
+body{
+  
+  background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/03/Black%20Cat9434910327.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+
+}
+
+
+.App {
+  background-color: rgba(197, 184, 41, 0.952) !important;
+  width: 600px;
+  height: 700px;
+  margin-right: auto;
+  
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 20px 20px 60px 
+            inset -20px -20px 60px;
+  border-radius: 54px;
+
+}
+
+
+h7{
+color: rgb(255, 2, 53);
+font-size: 20px;
+
+}
+
+
+
+
+h1 {
+    color: rgb(246, 226, 226);
+    font-family:Cambria;
+    text-align: center;
+    padding: 25px;
+}
+
+.FirstName{
+  color: rgb(246, 226, 226);
+  font-size: 20px;
+}
+.LastName{
+  color: rgb(246, 226, 226);
+  font-size:20px;
+}
+.Emailaddress{
+  color: rgb(246, 226, 226);
+  font-size:20px;
+}
+
+.Password{
+  color: rgb(246, 226, 226);
+  font-size: 20px;
+}
+
+.Check{
+  color: rgb(246, 226, 226);
+  font-size: 15px;
+
+
+}
+
+
+.btn {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  position: absolute;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+ }
+ 
+ .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .btn::after {
+  background-color: #fff;
+ }
+ 
+ .btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+ 
+ .btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+ }
+ 
+ @keyframes moveInBottom {
+  0% {
+   opacity: 0;
+   transform: translateY(30px);
+  }
+ 
+  100% {
+   opacity: 1;
+   transform: translateY(0px);
+  }
+ }
